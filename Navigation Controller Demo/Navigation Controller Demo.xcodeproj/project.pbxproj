@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		660D55C015EEA3C2008BBB22 /* CTRowControlsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 660D55BF15EEA3C2008BBB22 /* CTRowControlsController.m */; };
+		6618275F16151A3E00989B18 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6618275E16151A3E00989B18 /* Default-568h@2x.png */; };
+		661E858815EC02C80066DFE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661E858715EC02C80066DFE6 /* UIKit.framework */; };
+		661E858A15EC02C80066DFE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661E858915EC02C80066DFE6 /* Foundation.framework */; };
+		661E858C15EC02C80066DFE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661E858B15EC02C80066DFE6 /* CoreGraphics.framework */; };
+		661E859215EC02C80066DFE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661E859015EC02C80066DFE6 /* InfoPlist.strings */; };
+		661E859415EC02C80066DFE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E859315EC02C80066DFE6 /* main.m */; };
+		661E859815EC02C80066DFE6 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E859715EC02C80066DFE6 /* CTAppDelegate.m */; };
+		661E85A015EC03400066DFE6 /* CTFirstLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E859F15EC03400066DFE6 /* CTFirstLevelController.m */; };
+		661E85A315EC05720066DFE6 /* CTSecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E85A215EC05720066DFE6 /* CTSecondLevelViewController.m */; };
+		661E85AC15EC08F10066DFE6 /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85A415EC08F10066DFE6 /* button_down.png */; };
+		661E85AD15EC08F10066DFE6 /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85A515EC08F10066DFE6 /* button_up.png */; };
+		661E85AE15EC08F10066DFE6 /* checkmarkControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85A615EC08F10066DFE6 /* checkmarkControllerIcon.png */; };
+		661E85AF15EC08F10066DFE6 /* deleteMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85A715EC08F10066DFE6 /* deleteMeIcon.png */; };
+		661E85B015EC08F10066DFE6 /* detailEditIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85A815EC08F10066DFE6 /* detailEditIcon.png */; };
+		661E85B115EC08F10066DFE6 /* disclosureButtonControllerIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85A915EC08F10066DFE6 /* disclosureButtonControllerIcon.png */; };
+		661E85B215EC08F10066DFE6 /* moveMeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85AA15EC08F10066DFE6 /* moveMeIcon.png */; };
+		661E85B315EC08F10066DFE6 /* rowControlsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E85AB15EC08F10066DFE6 /* rowControlsIcon.png */; };
+		661E85B615EC0A0E0066DFE6 /* CTDisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E85B515EC0A0E0066DFE6 /* CTDisclosureButtonController.m */; };
+		661E85B915EC0A3C0066DFE6 /* CTDisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661E85B815EC0A3C0066DFE6 /* CTDisclosureDetailController.m */; };
+		661E85BB15EC0AE20066DFE6 /* CTDisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 661E85BA15EC0AE20066DFE6 /* CTDisclosureDetail.xib */; };
+		66A1003115F020F400405288 /* operatingsystems.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66A1003015F020F400405288 /* operatingsystems.plist */; };
+		66A10ED21607B86800EDACE8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10EC81607B86800EDACE8 /* Icon-72.png */; };
+		66A10ED31607B86800EDACE8 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10EC91607B86800EDACE8 /* Icon-72@2x.png */; };
+		66A10ED41607B86800EDACE8 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ECA1607B86800EDACE8 /* Icon-Small-50.png */; };
+		66A10ED51607B86800EDACE8 /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ECB1607B86800EDACE8 /* Icon-Small-50@2x.png */; };
+		66A10ED61607B86800EDACE8 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ECC1607B86800EDACE8 /* Icon-Small.png */; };
+		66A10ED71607B86800EDACE8 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ECD1607B86800EDACE8 /* Icon-Small@2x.png */; };
+		66A10ED81607B86800EDACE8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ECE1607B86800EDACE8 /* Icon.png */; };
+		66A10ED91607B86800EDACE8 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ECF1607B86800EDACE8 /* Icon@2x.png */; };
+		66A10EDA1607B86800EDACE8 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ED01607B86800EDACE8 /* iTunesArtwork */; };
+		66A10EDB1607B86800EDACE8 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66A10ED11607B86800EDACE8 /* iTunesArtwork@2x.png */; };
+		66CDE86715F01CD900775AD4 /* CTDeleteMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66CDE86615F01CD900775AD4 /* CTDeleteMeController.m */; };
+		66D9534315ED13C10076CC9C /* CTCheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D9534215ED13C10076CC9C /* CTCheckListController.m */; };
+		66D9A82015F013ED004105C5 /* CTMoveMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D9A81F15F013ED004105C5 /* CTMoveMeController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		660D55BE15EEA3C2008BBB22 /* CTRowControlsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTRowControlsController.h; sourceTree = "<group>"; };
+		660D55BF15EEA3C2008BBB22 /* CTRowControlsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTRowControlsController.m; sourceTree = "<group>"; };
+		6618275E16151A3E00989B18 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		661E858315EC02C80066DFE6 /* Navigation Controller Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Controller Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661E858715EC02C80066DFE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		661E858915EC02C80066DFE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		661E858B15EC02C80066DFE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		661E858F15EC02C80066DFE6 /* Navigation Controller Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Navigation Controller Demo-Info.plist"; sourceTree = "<group>"; };
+		661E859115EC02C80066DFE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		661E859315EC02C80066DFE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661E859515EC02C80066DFE6 /* Navigation Controller Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Navigation Controller Demo-Prefix.pch"; sourceTree = "<group>"; };
+		661E859615EC02C80066DFE6 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		661E859715EC02C80066DFE6 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		661E859E15EC03400066DFE6 /* CTFirstLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTFirstLevelController.h; sourceTree = "<group>"; };
+		661E859F15EC03400066DFE6 /* CTFirstLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFirstLevelController.m; sourceTree = "<group>"; };
+		661E85A115EC05720066DFE6 /* CTSecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSecondLevelViewController.h; sourceTree = "<group>"; };
+		661E85A215EC05720066DFE6 /* CTSecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSecondLevelViewController.m; sourceTree = "<group>"; };
+		661E85A415EC08F10066DFE6 /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_down.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/button_down.png"; sourceTree = "<group>"; };
+		661E85A515EC08F10066DFE6 /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_up.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/button_up.png"; sourceTree = "<group>"; };
+		661E85A615EC08F10066DFE6 /* checkmarkControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkmarkControllerIcon.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/checkmarkControllerIcon.png"; sourceTree = "<group>"; };
+		661E85A715EC08F10066DFE6 /* deleteMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = deleteMeIcon.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/deleteMeIcon.png"; sourceTree = "<group>"; };
+		661E85A815EC08F10066DFE6 /* detailEditIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = detailEditIcon.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/detailEditIcon.png"; sourceTree = "<group>"; };
+		661E85A915EC08F10066DFE6 /* disclosureButtonControllerIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = disclosureButtonControllerIcon.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/disclosureButtonControllerIcon.png"; sourceTree = "<group>"; };
+		661E85AA15EC08F10066DFE6 /* moveMeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = moveMeIcon.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/moveMeIcon.png"; sourceTree = "<group>"; };
+		661E85AB15EC08F10066DFE6 /* rowControlsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rowControlsIcon.png; path = "../../Begin_iOS_5_projects_2011_12_09/09 - Nav/Images/rowControlsIcon.png"; sourceTree = "<group>"; };
+		661E85B415EC0A0E0066DFE6 /* CTDisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisclosureButtonController.h; sourceTree = "<group>"; };
+		661E85B515EC0A0E0066DFE6 /* CTDisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisclosureButtonController.m; sourceTree = "<group>"; };
+		661E85B715EC0A3C0066DFE6 /* CTDisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDisclosureDetailController.h; sourceTree = "<group>"; };
+		661E85B815EC0A3C0066DFE6 /* CTDisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisclosureDetailController.m; sourceTree = "<group>"; };
+		661E85BA15EC0AE20066DFE6 /* CTDisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CTDisclosureDetail.xib; sourceTree = "<group>"; };
+		66A1003015F020F400405288 /* operatingsystems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = operatingsystems.plist; sourceTree = "<group>"; };
+		66A10EC81607B86800EDACE8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		66A10EC91607B86800EDACE8 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		66A10ECA1607B86800EDACE8 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		66A10ECB1607B86800EDACE8 /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		66A10ECC1607B86800EDACE8 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		66A10ECD1607B86800EDACE8 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		66A10ECE1607B86800EDACE8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		66A10ECF1607B86800EDACE8 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		66A10ED01607B86800EDACE8 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		66A10ED11607B86800EDACE8 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		66CDE86515F01CD900775AD4 /* CTDeleteMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDeleteMeController.h; sourceTree = "<group>"; };
+		66CDE86615F01CD900775AD4 /* CTDeleteMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDeleteMeController.m; sourceTree = "<group>"; };
+		66D9534115ED13C10076CC9C /* CTCheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCheckListController.h; sourceTree = "<group>"; };
+		66D9534215ED13C10076CC9C /* CTCheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCheckListController.m; sourceTree = "<group>"; };
+		66D9A81E15F013ED004105C5 /* CTMoveMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTMoveMeController.h; sourceTree = "<group>"; };
+		66D9A81F15F013ED004105C5 /* CTMoveMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTMoveMeController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661E858015EC02C80066DFE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661E858815EC02C80066DFE6 /* UIKit.framework in Frameworks */,
+				661E858A15EC02C80066DFE6 /* Foundation.framework in Frameworks */,
+				661E858C15EC02C80066DFE6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661E857815EC02C80066DFE6 = {
+			isa = PBXGroup;
+			children = (
+				661E858D15EC02C80066DFE6 /* Navigation Controller Demo */,
+				661E858615EC02C80066DFE6 /* Frameworks */,
+				661E858415EC02C80066DFE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661E858415EC02C80066DFE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661E858315EC02C80066DFE6 /* Navigation Controller Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661E858615EC02C80066DFE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				661E858715EC02C80066DFE6 /* UIKit.framework */,
+				661E858915EC02C80066DFE6 /* Foundation.framework */,
+				661E858B15EC02C80066DFE6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		661E858D15EC02C80066DFE6 /* Navigation Controller Demo */ = {
+			isa = PBXGroup;
+			children = (
+				661E859615EC02C80066DFE6 /* CTAppDelegate.h */,
+				661E859715EC02C80066DFE6 /* CTAppDelegate.m */,
+				661E858E15EC02C80066DFE6 /* Supporting Files */,
+				661E859E15EC03400066DFE6 /* CTFirstLevelController.h */,
+				661E859F15EC03400066DFE6 /* CTFirstLevelController.m */,
+				661E85A115EC05720066DFE6 /* CTSecondLevelViewController.h */,
+				661E85A215EC05720066DFE6 /* CTSecondLevelViewController.m */,
+				661E85B415EC0A0E0066DFE6 /* CTDisclosureButtonController.h */,
+				661E85B515EC0A0E0066DFE6 /* CTDisclosureButtonController.m */,
+				661E85B715EC0A3C0066DFE6 /* CTDisclosureDetailController.h */,
+				661E85B815EC0A3C0066DFE6 /* CTDisclosureDetailController.m */,
+				661E85BA15EC0AE20066DFE6 /* CTDisclosureDetail.xib */,
+				66D9534115ED13C10076CC9C /* CTCheckListController.h */,
+				66D9534215ED13C10076CC9C /* CTCheckListController.m */,
+				660D55BE15EEA3C2008BBB22 /* CTRowControlsController.h */,
+				660D55BF15EEA3C2008BBB22 /* CTRowControlsController.m */,
+				66D9A81E15F013ED004105C5 /* CTMoveMeController.h */,
+				66D9A81F15F013ED004105C5 /* CTMoveMeController.m */,
+				66CDE86515F01CD900775AD4 /* CTDeleteMeController.h */,
+				66CDE86615F01CD900775AD4 /* CTDeleteMeController.m */,
+			);
+			path = "Navigation Controller Demo";
+			sourceTree = "<group>";
+		};
+		661E858E15EC02C80066DFE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6618275E16151A3E00989B18 /* Default-568h@2x.png */,
+				66A10EC71607B86800EDACE8 /* icons */,
+				66A1003015F020F400405288 /* operatingsystems.plist */,
+				661E85A415EC08F10066DFE6 /* button_down.png */,
+				661E85A515EC08F10066DFE6 /* button_up.png */,
+				661E85A615EC08F10066DFE6 /* checkmarkControllerIcon.png */,
+				661E85A715EC08F10066DFE6 /* deleteMeIcon.png */,
+				661E85A815EC08F10066DFE6 /* detailEditIcon.png */,
+				661E85A915EC08F10066DFE6 /* disclosureButtonControllerIcon.png */,
+				661E85AA15EC08F10066DFE6 /* moveMeIcon.png */,
+				661E85AB15EC08F10066DFE6 /* rowControlsIcon.png */,
+				661E858F15EC02C80066DFE6 /* Navigation Controller Demo-Info.plist */,
+				661E859015EC02C80066DFE6 /* InfoPlist.strings */,
+				661E859315EC02C80066DFE6 /* main.m */,
+				661E859515EC02C80066DFE6 /* Navigation Controller Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66A10EC71607B86800EDACE8 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				66A10EC81607B86800EDACE8 /* Icon-72.png */,
+				66A10EC91607B86800EDACE8 /* Icon-72@2x.png */,
+				66A10ECA1607B86800EDACE8 /* Icon-Small-50.png */,
+				66A10ECB1607B86800EDACE8 /* Icon-Small-50@2x.png */,
+				66A10ECC1607B86800EDACE8 /* Icon-Small.png */,
+				66A10ECD1607B86800EDACE8 /* Icon-Small@2x.png */,
+				66A10ECE1607B86800EDACE8 /* Icon.png */,
+				66A10ECF1607B86800EDACE8 /* Icon@2x.png */,
+				66A10ED01607B86800EDACE8 /* iTunesArtwork */,
+				66A10ED11607B86800EDACE8 /* iTunesArtwork@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661E858215EC02C80066DFE6 /* Navigation Controller Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661E859B15EC02C80066DFE6 /* Build configuration list for PBXNativeTarget "Navigation Controller Demo" */;
+			buildPhases = (
+				661E857F15EC02C80066DFE6 /* Sources */,
+				661E858015EC02C80066DFE6 /* Frameworks */,
+				661E858115EC02C80066DFE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigation Controller Demo";
+			productName = "Navigation Controller Demo";
+			productReference = 661E858315EC02C80066DFE6 /* Navigation Controller Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661E857A15EC02C80066DFE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CT;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "EHS Code Team";
+			};
+			buildConfigurationList = 661E857D15EC02C80066DFE6 /* Build configuration list for PBXProject "Navigation Controller Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 661E857815EC02C80066DFE6;
+			productRefGroup = 661E858415EC02C80066DFE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661E858215EC02C80066DFE6 /* Navigation Controller Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661E858115EC02C80066DFE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661E859215EC02C80066DFE6 /* InfoPlist.strings in Resources */,
+				661E85AC15EC08F10066DFE6 /* button_down.png in Resources */,
+				661E85AD15EC08F10066DFE6 /* button_up.png in Resources */,
+				661E85AE15EC08F10066DFE6 /* checkmarkControllerIcon.png in Resources */,
+				661E85AF15EC08F10066DFE6 /* deleteMeIcon.png in Resources */,
+				661E85B015EC08F10066DFE6 /* detailEditIcon.png in Resources */,
+				661E85B115EC08F10066DFE6 /* disclosureButtonControllerIcon.png in Resources */,
+				661E85B215EC08F10066DFE6 /* moveMeIcon.png in Resources */,
+				661E85B315EC08F10066DFE6 /* rowControlsIcon.png in Resources */,
+				661E85BB15EC0AE20066DFE6 /* CTDisclosureDetail.xib in Resources */,
+				66A1003115F020F400405288 /* operatingsystems.plist in Resources */,
+				66A10ED21607B86800EDACE8 /* Icon-72.png in Resources */,
+				66A10ED31607B86800EDACE8 /* Icon-72@2x.png in Resources */,
+				66A10ED41607B86800EDACE8 /* Icon-Small-50.png in Resources */,
+				66A10ED51607B86800EDACE8 /* Icon-Small-50@2x.png in Resources */,
+				66A10ED61607B86800EDACE8 /* Icon-Small.png in Resources */,
+				66A10ED71607B86800EDACE8 /* Icon-Small@2x.png in Resources */,
+				66A10ED81607B86800EDACE8 /* Icon.png in Resources */,
+				66A10ED91607B86800EDACE8 /* Icon@2x.png in Resources */,
+				66A10EDA1607B86800EDACE8 /* iTunesArtwork in Resources */,
+				66A10EDB1607B86800EDACE8 /* iTunesArtwork@2x.png in Resources */,
+				6618275F16151A3E00989B18 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661E857F15EC02C80066DFE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661E859415EC02C80066DFE6 /* main.m in Sources */,
+				661E859815EC02C80066DFE6 /* CTAppDelegate.m in Sources */,
+				661E85A015EC03400066DFE6 /* CTFirstLevelController.m in Sources */,
+				661E85A315EC05720066DFE6 /* CTSecondLevelViewController.m in Sources */,
+				661E85B615EC0A0E0066DFE6 /* CTDisclosureButtonController.m in Sources */,
+				661E85B915EC0A3C0066DFE6 /* CTDisclosureDetailController.m in Sources */,
+				66D9534315ED13C10076CC9C /* CTCheckListController.m in Sources */,
+				660D55C015EEA3C2008BBB22 /* CTRowControlsController.m in Sources */,
+				66D9A82015F013ED004105C5 /* CTMoveMeController.m in Sources */,
+				66CDE86715F01CD900775AD4 /* CTDeleteMeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		661E859015EC02C80066DFE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661E859115EC02C80066DFE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661E859915EC02C80066DFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		661E859A15EC02C80066DFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661E859C15EC02C80066DFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Controller Demo/Navigation Controller Demo-Prefix.pch";
+				INFOPLIST_FILE = "Navigation Controller Demo/Navigation Controller Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		661E859D15EC02C80066DFE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Navigation Controller Demo/Navigation Controller Demo-Prefix.pch";
+				INFOPLIST_FILE = "Navigation Controller Demo/Navigation Controller Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661E857D15EC02C80066DFE6 /* Build configuration list for PBXProject "Navigation Controller Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661E859915EC02C80066DFE6 /* Debug */,
+				661E859A15EC02C80066DFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661E859B15EC02C80066DFE6 /* Build configuration list for PBXNativeTarget "Navigation Controller Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661E859C15EC02C80066DFE6 /* Debug */,
+				661E859D15EC02C80066DFE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661E857A15EC02C80066DFE6 /* Project object */;
+}

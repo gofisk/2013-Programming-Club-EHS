@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>Adam-Markon.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>	&lt;key&gt;CFBundleIconFiles&lt;/key&gt;
+	&lt;array&gt;
+		&lt;string&gt;Icon.png&lt;/string&gt;
+		&lt;string&gt;Icon@2x.png&lt;/string&gt;
+		&lt;string&gt;Icon-72.png&lt;/string&gt;
+		&lt;string&gt;Icon-72@2x.png&lt;/string&gt;
+		&lt;string&gt;Icon-Small-50.png&lt;/string&gt;
+		&lt;string&gt;Icon-Small-50@2x.png&lt;/string&gt;
+		&lt;string&gt;Icon-Small.png&lt;/string&gt;
+		&lt;string&gt;Icon-Small@2x.png&lt;/string&gt;
+	&lt;/array&gt;
+</string>
+	</array>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

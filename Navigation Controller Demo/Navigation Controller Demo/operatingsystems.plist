@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Apple DOS</string>
+	<string>UCSD Pascal</string>
+	<string>ProDOS</string>
+	<string>GS/OS</string>
+	<string>SOS</string>
+	<string>Lisa OS</string>
+	<string>Newton OS</string>
+	<string>System 1 (Mac OS)</string>
+	<string>System 2 (Mac OS)</string>
+	<string>System 3 (Mac OS)</string>
+	<string>System 4 (Mac OS)</string>
+	<string>System 5 (Mac OS)</string>
+	<string>System 6 (Mac OS)</string>
+	<string>System 7 (Mac OS)</string>
+	<string>Mac OS 7.6</string>
+	<string>Mac OS 8</string>
+	<string>Mac OS 9</string>
+	<string>NeXTSTEP</string>
+	<string>OpenStep</string>
+	<string>Darwin</string>
+	<string>Mac OS X Server 1.0</string>
+	<string>Mac OS X Public Beta</string>
+	<string>Mac OS X 10.0 Cheetah</string>
+	<string>Mac OS X 10.1 Puma</string>
+	<string>Mac OS X 10.2 Jaguar</string>
+	<string>Mac OS X 10.3 Panther</string>
+	<string>Mac OS X 10.4 Tiger</string>
+	<string>Mac OS X 10.5 Leopard</string>
+	<string>Mac OS X 10.6 Snow Leopard</string>
+	<string>Mac OS X 10.7 Lion</string>
+	<string>Mac OS X 10.8 Mountain Lion</string>
+	<string>iPhone OS 1</string>
+	<string>iPhone OS 2</string>
+	<string>iPhone OS 3</string>
+	<string>iOS 4</string>
+	<string>iOS 5</string>
+	<string>iOS 6</string>
+	<string>Xenix</string>
+	<string>MSX - DOS</string>
+	<string>MS - DOS</string>
+	<string>Windows 1.0</string>
+	<string>Windows 2.0</string>
+	<string>Windows 3.0</string>
+	<string>Windows 3.1x</string>
+	<string>Windows 3.2</string>
+	<string>Windows for Workgroups 3.11</string>
+	<string>Windows 95</string>
+	<string>Windows 98</string>
+	<string>Windows Millennium Edition</string>
+	<string>Windows NT</string>
+	<string>Windows NT 3.1</string>
+	<string>Windows NT 3.5</string>
+	<string>Windows NT 3.51</string>
+	<string>Windows NT 4.0</string>
+	<string>Windows 2000</string>
+	<string>Windows XP</string>
+	<string>Windows Server 2003</string>
+	<string>Windows Fundamentals</string>
+	<string>Windows Vista</string>
+	<string>Windows Azure</string>
+	<string>Windows Home Server</string>
+	<string>Windows Server 2008</string>
+	<string>Windows 7</string>
+	<string>Windows Server 2008 R2</string>
+	<string>Windows Home Server 2011</string>
+	<string>Windows 8 Consumer Preview</string>
+	<string>Windows 8 Server Beta</string>
+	<string>Windows CE</string>
+	<string>Windows CE 3.0</string>
+	<string>Windows CE 5.0</string>
+	<string>Windows CE 6.0</string>
+	<string>Windows Mobile</string>
+	<string>Windows Phone</string>
+	<string>Singularity</string>
+	<string>Xbox OS</string>
+	<string>Xbox 360 OS</string>
+	<string>Linux 64 Studio</string>
+	<string>Linux Aptosid</string>
+	<string>Linux BOSS</string>
+	<string>Linux Canaima</string>
+	<string>Linux Caixa Mágica</string>
+	<string>Corel Linux</string>
+	<string>CrunchBang Linux</string>
+	<string>Dreamlinux</string>
+	<string>Linux Elive</string>
+	<string>Linux Finnix</string>
+	<string>Linux Freespire</string>
+	<string>Linux Gibraltar</string>
+	<string>gnuLinEx</string>
+	<string>grml Linux</string>
+	<string>Linux Kanotix</string>
+	<string>Linux Knoppix</string>
+	<string>Linux Kurumin</string>
+	<string>LEAF Project</string>
+	<string>Limux</string>
+	<string>Lindows</string>
+	<string>Linux Debian Mint</string>
+	<string>Linux Router Project</string>
+	<string>Linux Maemo</string>
+	<string>MEPIS</string>
+	<string>MintPPC</string>
+	<string>Linux NeoPwn</string>
+	<string>NepaLinux</string>
+	<string>OpenZaurus</string>
+	<string>Parsix Linux</string>
+	<string>Progeny Componentized Linux</string>
+	<string>PureOS</string>
+	<string>Rxart</string>
+	<string>Sacix Debian</string>
+	<string>Skolelinux</string>
+	<string>SolusOS</string>
+	<string>Sunwah Linux</string>
+	<string>Symphony OS</string>
+	<string>TAILS</string>
+	<string>Ubuntu</string>
+	<string>Ulteo Virtual Desktop</string>
+	<string>Univention Corporate Server</string>
+	<string>UserLinux</string>
+	<string>Webconverger</string>
+	<string>Linux Vyatta</string>
+	<string>Xandros Open Circulation</string>
+	<string>Google Chrome OS</string>
+	<string>Google Chromium OS</string>
+	<string>Android 1.0 Astro</string>
+	<string>Android 1.1 Bender</string>
+	<string>Android 1.5 Cupcake</string>
+	<string>Android 1.6 Donut</string>
+	<string>Android 2.0/2.1 Eclair</string>
+	<string>Android 2.2 Froyo</string>
+	<string>Android 2.3 Gingerbread</string>
+	<string>Android 3.0 Honeycomb</string>
+	<string>Android 4.0 Ice Cream Sandwich</string>
+	<string>Android 4.1 Jellybean</string>
+</array>
+</plist>
